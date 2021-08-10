@@ -1,2 +1,3 @@
-RUN echo "hello world"
-EOF
+FROM scratch
+COPY hello /
+CMD ["/hello"]
